@@ -34,8 +34,8 @@ def sell_btc(price,num):
       
 if __name__ == '__main__':
   while(1):
-      buy_btc(random.randint(1800,1900),round(random.random(),2))
-      sell_btc(random.randint(2300,2500),round(random.random(),2))
+      buy_btc(random.randint(1800,1900)+round(random.random(),2),round(random.random(),4))
+      sell_btc(random.randint(2100,2300)+round(random.random(),2),round(random.random(),4))
  
 ''' cancel requires id number of order '''
 #result = bc.cancel(2)
